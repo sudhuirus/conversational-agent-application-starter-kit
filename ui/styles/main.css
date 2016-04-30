@@ -104,7 +104,7 @@ img {
 }
 
 .container {
-    padding-right: 15px; 
+    padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
@@ -823,7 +823,9 @@ html, body {
     color: #000000;
     background-color: #00D6C3;
 }
-
+.dialog-body-chatting {
+  background-color: white
+}
 /*PLACEHOLDER Color change*/
 .dialog-body-chatting ::-webkit-input-placeholder { /* WebKit browsers */
     color: #C7C7C7;
