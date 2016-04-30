@@ -32,7 +32,7 @@
     "express-rate-limit": "^2.1.0",
     "express-secure-only": "^0.2.1",
     "gulp-nodemon": "^2.0.6",
-    "helmet": "^1.1.0",
+    "helmet": "^2.0.0",
     "moment": "^2.11.1",
     "q": "^1.4.1",
     "request": "^2.69.0",
