@@ -108,7 +108,7 @@
   gulp.task('nodemon', ['set-env'], function(cb) {
     var called = false;
     return nodemon({
-      script: 'app.js',
+      script: 'server.js',
       ignore: [ 'Gulpfile.js', 'node_modules/' ]
     })
     .on('start', function() {
