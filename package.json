@@ -18,8 +18,12 @@
     "url": "https://github.com/watson-developer-cloud/conversational-agent-application-starter-kit/issues"
   },
   "scripts": {
-    "start": "node app.js",
-    "postinstall": "gulp build"
+    "start": "node server.js",
+    "postinstall": "gulp build",
+    "test": "npm run jshint && (npm run codecov || true)",
+    "jshint": "jshint --exclude ./node_modules/",
+    "codecov": "istanbul cover ./node_modules/mocha/bin/_mocha && codecov"
+
   },
   "engines": {
     "node": "4.2.1"
@@ -64,6 +68,11 @@
     "gulp-uglify": "^1.0.1",
     "gulp-useref": "^1.3.0",
     "gulp-util": "^3.0.1",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^1.1.5",
+    "codecov": "^1.0.1",
+    "istanbul": "^0.4.2",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   }
 }

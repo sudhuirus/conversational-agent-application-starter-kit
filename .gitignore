@@ -4,3 +4,4 @@ node_modules
 .env.js
 public/*
 npm-debug.log
+coverage
