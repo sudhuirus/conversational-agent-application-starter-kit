@@ -1,9 +1,9 @@
-# Conversational Agent: Movie Assistant
+# Conversational Agent: Movie Assistant [![Build Status](https://travis-ci.org/watson-developer-cloud/conversational-agent-application-starter-kit.svg?branch=master)](https://travis-ci.org/watson-developer-cloud/conversational-agent-application-starter-kit)
 
 This application is an **Application Starter Kit** (ASK) that is
 designed to get you up and running quickly with a common industry pattern, and to provide information about best practices around Watson services. This application was created to highlight the combination of the [Dialog][dialog] and [Natural Language Classifier][classifier] (NLC) services as a [Conversational Agent](#about-the-conversational-agent-pattern). This application can serve as the basis for your own applications that follow that pattern. Another application that demonstrates this pattern is the [What's in Theaters](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html#whats-in-theaters) application that is available in the Watson Developer Cloud website's [Application Gallery](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html).
 
-Give it a try! Click the button below to fork the repository that contains the source code for this application into IBM DevOps Services, which then deploys your own copy of this application on Bluemix automtically:
+Give it a try! Click the button below to fork the repository that contains the source code for this application into IBM DevOps Services, which then deploys your own copy of this application on Bluemix automatically:
 
 [![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/conversational-agent-application-starter-kit)
 
@@ -91,7 +91,7 @@ The following instructions explain how to [fork the project on GitHub](https://h
     ```sh
     $ cf create-service natural_language_classifier standard classifier-service
     ```
-    **Note:** You will see a message that states "Attention: The plan `standard` of service `natural_language_classifier` is not free.  The instance `classifier-service` will incur a cost.  Contact your administrator if you think this is in error.". The first NLC instance that you create is free under the standard plan, so there will be no chanrge if you only create a single classifier instance for use by this application.
+    **Note:** You will see a message that states "Attention: The plan `standard` of service `natural_language_classifier` is not free.  The instance `classifier-service` will incur a cost.  Contact your administrator if you think this is in error.". The first NLC instance that you create is free under the standard plan, so there will be no change if you only create a single classifier instance for use by this application.
 
   <a name="step10"></a>
   10. Sign up at [themoviedb.com][the_movie_db] and get an [API key][the_movie_db_api_key].
